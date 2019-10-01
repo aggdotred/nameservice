@@ -3,6 +3,10 @@ package app
 import (
 	"log"
 	"os"
+
+	bam "github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/cosmos/cosmos-sdk/x/auth"
 )
 
 const appName = "nameservice"
